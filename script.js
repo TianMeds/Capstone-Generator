@@ -1205,5 +1205,6 @@ var researchTitles = [
 function newTitle() {
 	var randomTitles = Math.floor(Math.random() * (researchTitles.length));
 	document.getElementById('answer').innerHTML = researchTitles[randomTitles];
-	document.getElementById('answer').style.background = "#a67c56";
+	document.getElementById('answer').style.background = "#EAE3D2";
+  document.getElementById('answer').style.color = "#000";
 }
